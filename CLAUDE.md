@@ -4,7 +4,7 @@ Cryptographic coordination infrastructure for hierarchically governed communitie
 
 ## Current Phase
 
-**Phase 0 — Scaffold.** App shell, build system, lint/test/format toolchain, and empty package directories. No domain logic yet.
+**Phase 1 — Crypto** (Steps 13-21 in progress, currently 13-15 complete).
 
 ## Tech Stack
 
@@ -15,6 +15,7 @@ Cryptographic coordination infrastructure for hierarchically governed communitie
 - **Testing**: Vitest + React Testing Library + jest-dom + jsdom
 - **Lint**: ESLint 9 flat config (`eslint.config.js`) + typescript-eslint
 - **Format**: Prettier 3
+- **Crypto**: `libsodium-wrappers` (WASM crypto primitives)
 
 ## Directory Structure
 

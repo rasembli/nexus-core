@@ -18,5 +18,9 @@ export default defineConfig({
     environment: 'jsdom',
     setupFiles: ['./tests/setup.ts'],
     globals: true,
+    env: {
+      VITE_SUPABASE_URL: 'https://test.supabase.co',
+      VITE_SUPABASE_PUBLISHABLE_KEY: 'sb_publishable_test_placeholder',
+    },
   },
 });
